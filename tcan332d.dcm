@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCAN332D
+D High-Speed CAN Transceiver, 1Mbps, 3.3V supply
+K High-Speed CAN Transceiver
+F http://datasheets.maximintegrated.com/en/ds/MAX3051.pdf
+$ENDCMP
+#
+#End Doc Library

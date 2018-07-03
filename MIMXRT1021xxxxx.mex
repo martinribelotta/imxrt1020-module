@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<configuration name="MIMXRT1021xxxxx" version="1.4" xsi:schemaLocation="http://mcuxpresso.nxp.com/XSD/mex_configuration_1.4 http://mcuxpresso.nxp.com/XSD/mex_configuration_1.4.xsd" uuid="cead0c56-c579-45ad-9fd2-24e17bc3acf2" xmlns="http://mcuxpresso.nxp.com/XSD/mex_configuration_1.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <common>
+      <processor>MIMXRT1021xxxxx</processor>
+      <package>MIMXRT1021DAG5A</package>
+      <board></board>
+      <mcu_data>ksdk2_0</mcu_data>
+      <cores selected="core0">
+         <core name="Cortex-M7F" id="core0" description="M7 core"/>
+      </cores>
+      <description></description>
+   </common>
+   <preferences>
+      <validate_boot_init_only>true</validate_boot_init_only>
+      <generate_extended_information>false</generate_extended_information>
+   </preferences>
+   <tools>
+      <pins name="Pins" version="4.1" enabled="true" update_project_code="true">
+         <pins_profile>
+            <processor_version>4.0.0</processor_version>
+            <power_domains/>
+         </pins_profile>
+         <functions_list>
+            <function name="BOARD_InitPins">
+               <description>Configures pin routing and optionally pin electrical features.&amp;lt;br/&amp;gt;</description>
+               <options>
+                  <callFromInitBoot>false</callFromInitBoot>
+                  <coreID>core0</coreID>
+                  <enableClock>true</enableClock>
+               </options>
+               <dependencies>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.common" description="Pins initialization requires the COMMON Driver in the project." problem_level="2" source="Pins.BOARD_InitPins">
+                     <feature name="enabled" evaluation="equal" configuration="core0">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.iomuxc" description="Pins initialization requires the IOMUXC Driver in the project." problem_level="2" source="Pins.BOARD_InitPins">
+                     <feature name="enabled" evaluation="equal" configuration="core0">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+               </dependencies>
+               <pins>
+                  <pin peripheral="SEMC" signal="ADDR, 00" pin_num="142" pin_signal="GPIO_EMC_16"/>
+                  <pin peripheral="SEMC" signal="ADDR, 01" pin_num="141" pin_signal="GPIO_EMC_17"/>
+                  <pin peripheral="SEMC" signal="ADDR, 02" pin_num="140" pin_signal="GPIO_EMC_18"/>
+                  <pin peripheral="SEMC" signal="ADDR, 03" pin_num="139" pin_signal="GPIO_EMC_19"/>
+                  <pin peripheral="SEMC" signal="ADDR, 04" pin_num="138" pin_signal="GPIO_EMC_20"/>
+                  <pin peripheral="SEMC" signal="ADDR, 05" pin_num="137" pin_signal="GPIO_EMC_21"/>
+                  <pin peripheral="SEMC" signal="ADDR, 06" pin_num="136" pin_signal="GPIO_EMC_22"/>
+                  <pin peripheral="SEMC" signal="ADDR, 07" pin_num="133" pin_signal="GPIO_EMC_23"/>
+                  <pin peripheral="SEMC" signal="ADDR, 08" pin_num="132" pin_signal="GPIO_EMC_24"/>
+                  <pin peripheral="SEMC" signal="ADDR, 09" pin_num="131" pin_signal="GPIO_EMC_25"/>
+                  <pin peripheral="SEMC" signal="ADDR, 10" pin_num="143" pin_signal="GPIO_EMC_15"/>
+                  <pin peripheral="SEMC" signal="ADDR, 11" pin_num="130" pin_signal="GPIO_EMC_26"/>
+                  <pin peripheral="SEMC" signal="ADDR, 12" pin_num="129" pin_signal="GPIO_EMC_27"/>
+                  <pin peripheral="SEMC" signal="BA, 0" pin_num="2" pin_signal="GPIO_EMC_13"/>
+                  <pin peripheral="SEMC" signal="BA, 1" pin_num="1" pin_signal="GPIO_EMC_14"/>
+                  <pin peripheral="SEMC" signal="semc_cas" pin_num="7" pin_signal="GPIO_EMC_10"/>
+                  <pin peripheral="SEMC" signal="semc_cke" pin_num="127" pin_signal="GPIO_EMC_29"/>
+                  <pin peripheral="SEMC" signal="semc_clk" pin_num="126" pin_signal="GPIO_EMC_30"/>
+                  <pin peripheral="SEMC" signal="CS, 0" pin_num="3" pin_signal="GPIO_EMC_12"/>
+                  <pin peripheral="SEMC" signal="DATA, 00" pin_num="18" pin_signal="GPIO_EMC_00"/>
+                  <pin peripheral="SEMC" signal="DATA, 01" pin_num="17" pin_signal="GPIO_EMC_01"/>
+                  <pin peripheral="SEMC" signal="DATA, 02" pin_num="16" pin_signal="GPIO_EMC_02"/>
+                  <pin peripheral="SEMC" signal="DATA, 03" pin_num="15" pin_signal="GPIO_EMC_03"/>
+                  <pin peripheral="SEMC" signal="DATA, 04" pin_num="14" pin_signal="GPIO_EMC_04"/>
+                  <pin peripheral="SEMC" signal="DATA, 05" pin_num="13" pin_signal="GPIO_EMC_05"/>
+                  <pin peripheral="SEMC" signal="DATA, 06" pin_num="12" pin_signal="GPIO_EMC_06"/>
+                  <pin peripheral="SEMC" signal="DATA, 07" pin_num="10" pin_signal="GPIO_EMC_07"/>
+                  <pin peripheral="SEMC" signal="DATA, 08" pin_num="124" pin_signal="GPIO_EMC_32"/>
+                  <pin peripheral="SEMC" signal="DATA, 09" pin_num="123" pin_signal="GPIO_EMC_33"/>
+                  <pin peripheral="SEMC" signal="DATA, 10" pin_num="122" pin_signal="GPIO_EMC_34"/>
+                  <pin peripheral="SEMC" signal="DATA, 11" pin_num="121" pin_signal="GPIO_EMC_35"/>
+                  <pin peripheral="SEMC" signal="DATA, 12" pin_num="120" pin_signal="GPIO_EMC_36"/>
+                  <pin peripheral="SEMC" signal="DATA, 13" pin_num="119" pin_signal="GPIO_EMC_37"/>
+                  <pin peripheral="SEMC" signal="DATA, 14" pin_num="118" pin_signal="GPIO_EMC_38"/>
+                  <pin peripheral="SEMC" signal="DATA, 15" pin_num="117" pin_signal="GPIO_EMC_39"/>
+                  <pin peripheral="SEMC" signal="DM, 0" pin_num="9" pin_signal="GPIO_EMC_08"/>
+                  <pin peripheral="SEMC" signal="DM, 1" pin_num="125" pin_signal="GPIO_EMC_31"/>
+                  <pin peripheral="SEMC" signal="semc_ras" pin_num="4" pin_signal="GPIO_EMC_11"/>
+                  <pin peripheral="SEMC" signal="semc_we" pin_num="8" pin_signal="GPIO_EMC_09"/>
+                  <pin peripheral="XTALOSC24M" signal="rtc_xtali" pin_num="57" pin_signal="RTC_XTALI"/>
+                  <pin peripheral="XTALOSC24M" signal="rtc_xtalo" pin_num="58" pin_signal="RTC_XTALO"/>
+                  <pin peripheral="XTALOSC24M" signal="xtali" pin_num="67" pin_signal="XTALI"/>
+                  <pin peripheral="XTALOSC24M" signal="xtalo" pin_num="68" pin_signal="XTALO"/>
+                  <pin peripheral="JTAG" signal="TMS" pin_num="111" pin_signal="GPIO_AD_B0_00"/>
+                  <pin peripheral="JTAG" signal="TCK" pin_num="110" pin_signal="GPIO_AD_B0_01"/>
+                  <pin peripheral="JTAG" signal="MOD" pin_num="109" pin_signal="GPIO_AD_B0_02"/>
+                  <pin peripheral="LPUART1" signal="TX" pin_num="105" pin_signal="GPIO_AD_B0_06"/>
+                  <pin peripheral="LPUART1" signal="RX" pin_num="101" pin_signal="GPIO_AD_B0_07"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 23" pin_num="83" pin_signal="GPIO_AD_B1_07"/>
+                  <pin peripheral="ENET" signal="enet_tx_data, 0" pin_num="94" pin_signal="GPIO_AD_B0_14"/>
+                  <pin peripheral="ENET" signal="enet_tx_data, 1" pin_num="93" pin_signal="GPIO_AD_B0_15"/>
+                  <pin peripheral="ENET" signal="enet_tx_en" pin_num="95" pin_signal="GPIO_AD_B0_13"/>
+                  <pin peripheral="ENET" signal="enet_rx_er" pin_num="96" pin_signal="GPIO_AD_B0_12"/>
+                  <pin peripheral="ENET" signal="enet_rx_data, 0" pin_num="98" pin_signal="GPIO_AD_B0_10"/>
+                  <pin peripheral="ENET" signal="enet_ref_clk" pin_num="100" pin_signal="GPIO_AD_B0_08"/>
+                  <pin peripheral="ENET" signal="enet_mdc" pin_num="115" pin_signal="GPIO_EMC_41"/>
+                  <pin peripheral="ENET" signal="enet_mdio" pin_num="116" pin_signal="GPIO_EMC_40"/>
+                  <pin peripheral="ENET" signal="enet_rx_data, 1" pin_num="99" pin_signal="GPIO_AD_B0_09"/>
+                  <pin peripheral="ENET" signal="enet_rx_en" pin_num="97" pin_signal="GPIO_AD_B0_11"/>
+                  <pin peripheral="USDHC1" signal="usdhc_clk" pin_num="45" pin_signal="GPIO_SD_B0_03"/>
+                  <pin peripheral="USDHC1" signal="usdhc_cmd" pin_num="46" pin_signal="GPIO_SD_B0_02"/>
+                  <pin peripheral="USDHC1" signal="usdhc_data, 0" pin_num="43" pin_signal="GPIO_SD_B0_04"/>
+                  <pin peripheral="USDHC1" signal="usdhc_data, 1" pin_num="42" pin_signal="GPIO_SD_B0_05"/>
+                  <pin peripheral="USDHC1" signal="usdhc_data, 2" pin_num="48" pin_signal="GPIO_SD_B0_00"/>
+                  <pin peripheral="USDHC1" signal="usdhc_data, 3" pin_num="47" pin_signal="GPIO_SD_B0_01"/>
+                  <pin peripheral="GPIO5" signal="gpio_io, 00" pin_num="52" pin_signal="WAKEUP"/>
+                  <pin peripheral="GPIO5" signal="gpio_io, 01" pin_num="53" pin_signal="PMIC_ON_REQ"/>
+                  <pin peripheral="GPIO5" signal="gpio_io, 02" pin_num="54" pin_signal="PMIC_STBY_REQ"/>
+                  <pin peripheral="SUPPLY" signal="DCDC_GND" pin_num="35" pin_signal="DCDC_GND"/>
+                  <pin peripheral="SUPPLY" signal="DCDC_IN" pin_num="34" pin_signal="DCDC_IN"/>
+                  <pin peripheral="SUPPLY" signal="dcdc_in_q" pin_num="38" pin_signal="DCDC_IN_Q"/>
+                  <pin peripheral="SUPPLY" signal="DCDC_LP" pin_num="36" pin_signal="DCDC_LP"/>
+                  <pin peripheral="SUPPLY" signal="dcdc_pswitch" pin_num="37" pin_signal="DCDC_PSWITCH"/>
+                  <pin peripheral="SUPPLY" signal="gpanaio" pin_num="71" pin_signal="GPANAIO"/>
+                  <pin peripheral="SUPPLY" signal="ngnd_kel0" pin_num="64" pin_signal="NGND_KEL0"/>
+                  <pin peripheral="SUPPLY" signal="NVCC_GPIO, 0" pin_num="11" pin_signal="NVCC_GPIO0"/>
+                  <pin peripheral="SUPPLY" signal="NVCC_GPIO, 1" pin_num="20" pin_signal="NVCC_GPIO1"/>
+                  <pin peripheral="SUPPLY" signal="NVCC_GPIO, 2" pin_num="29" pin_signal="NVCC_GPIO2"/>
+                  <pin peripheral="SUPPLY" signal="NVCC_GPIO, 3" pin_num="77" pin_signal="NVCC_GPIO3"/>
+                  <pin peripheral="SUPPLY" signal="NVCC_GPIO, 4" pin_num="104" pin_signal="NVCC_GPIO4"/>
+                  <pin peripheral="SUPPLY" signal="NVCC_GPIO, 5" pin_num="112" pin_signal="NVCC_GPIO5"/>
+                  <pin peripheral="SUPPLY" signal="NVCC_GPIO, 6" pin_num="144" pin_signal="NVCC_GPIO6"/>
+                  <pin peripheral="SUPPLY" signal="nvcc_pll" pin_num="72" pin_signal="NVCC_PLL"/>
+                  <pin peripheral="SUPPLY" signal="nvcc_sd0" pin_num="44" pin_signal="NVCC_SD0"/>
+                  <pin peripheral="SUPPLY" signal="test_mode" pin_num="51" pin_signal="TEST_MODE"/>
+                  <pin peripheral="SUPPLY" signal="usb_otg1_chd_b" pin_num="66" pin_signal="USB_OTG1_CHD_B"/>
+                  <pin peripheral="SUPPLY" signal="usb_otg1_dn" pin_num="62" pin_signal="USB_OTG1_DN"/>
+                  <pin peripheral="SUPPLY" signal="usb_otg1_dp" pin_num="63" pin_signal="USB_OTG1_DP"/>
+                  <pin peripheral="SUPPLY" signal="usb_otg1_vbus" pin_num="59" pin_signal="USB_OTG1_VBUS"/>
+                  <pin peripheral="SUPPLY" signal="VDD_HIGH_CAP" pin_num="65" pin_signal="VDD_HIGH_CAP"/>
+                  <pin peripheral="SUPPLY" signal="VDD_HIGH_IN" pin_num="69" pin_signal="VDD_HIGH_IN"/>
+                  <pin peripheral="SUPPLY" signal="VDD_SNVS_CAP" pin_num="56" pin_signal="VDD_SNVS_CAP"/>
+                  <pin peripheral="SUPPLY" signal="VDD_SNVS_IN" pin_num="55" pin_signal="VDD_SNVS_IN"/>
+                  <pin peripheral="SUPPLY" signal="VDD_SOC_IN, 0" pin_num="5" pin_signal="VDD_SOC_IN0"/>
+                  <pin peripheral="SUPPLY" signal="VDD_SOC_IN, 1" pin_num="31" pin_signal="VDD_SOC_IN1"/>
+                  <pin peripheral="SUPPLY" signal="VDD_SOC_IN, 2" pin_num="39" pin_signal="VDD_SOC_IN2"/>
+                  <pin peripheral="SUPPLY" signal="VDD_SOC_IN, 3" pin_num="86" pin_signal="VDD_SOC_IN3"/>
+                  <pin peripheral="SUPPLY" signal="VDD_SOC_IN, 4" pin_num="102" pin_signal="VDD_SOC_IN4"/>
+                  <pin peripheral="SUPPLY" signal="VDD_SOC_IN, 5" pin_num="114" pin_signal="VDD_SOC_IN5"/>
+                  <pin peripheral="SUPPLY" signal="VDD_SOC_IN, 6" pin_num="134" pin_signal="VDD_SOC_IN6"/>
+                  <pin peripheral="SUPPLY" signal="VDD_USB_CAP" pin_num="61" pin_signal="VDD_USB_CAP"/>
+                  <pin peripheral="SUPPLY" signal="VDDA_ADC_3P3" pin_num="73" pin_signal="VDDA_ADC_3P3"/>
+                  <pin peripheral="SUPPLY" signal="VSS, 0" pin_num="6" pin_signal="VSS0"/>
+                  <pin peripheral="SUPPLY" signal="VSS, 1" pin_num="40" pin_signal="VSS1"/>
+                  <pin peripheral="SUPPLY" signal="VSS, 2" pin_num="60" pin_signal="VSS2"/>
+                  <pin peripheral="SUPPLY" signal="VSS, 3" pin_num="70" pin_signal="VSS3"/>
+                  <pin peripheral="SUPPLY" signal="VSS, 4" pin_num="85" pin_signal="VSS4"/>
+                  <pin peripheral="SUPPLY" signal="VSS, 5" pin_num="103" pin_signal="VSS5"/>
+                  <pin peripheral="SUPPLY" signal="VSS, 6" pin_num="113" pin_signal="VSS6"/>
+                  <pin peripheral="SUPPLY" signal="VSS, 7" pin_num="135" pin_signal="VSS7"/>
+                  <pin peripheral="SRC" signal="POR_B" pin_num="50" pin_signal="POR_B"/>
+                  <pin peripheral="SRC" signal="RESET_B" pin_num="49" pin_signal="ONOFF"/>
+                  <pin peripheral="USDHC1" signal="usdhc_cd_b" pin_num="41" pin_signal="GPIO_SD_B0_06"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 18" pin_num="90" pin_signal="GPIO_AD_B1_02"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 19" pin_num="89" pin_signal="GPIO_AD_B1_03"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 20" pin_num="88" pin_signal="GPIO_AD_B1_04"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 21" pin_num="87" pin_signal="GPIO_AD_B1_05"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 22" pin_num="84" pin_signal="GPIO_AD_B1_06"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 26" pin_num="80" pin_signal="GPIO_AD_B1_10"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 27" pin_num="79" pin_signal="GPIO_AD_B1_11"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 28" pin_num="78" pin_signal="GPIO_AD_B1_12"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 29" pin_num="76" pin_signal="GPIO_AD_B1_13"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 30" pin_num="75" pin_signal="GPIO_AD_B1_14"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 31" pin_num="74" pin_signal="GPIO_AD_B1_15"/>
+                  <pin peripheral="JTAG" signal="TDI" pin_num="108" pin_signal="GPIO_AD_B0_03"/>
+                  <pin peripheral="JTAG" signal="TDO" pin_num="107" pin_signal="GPIO_AD_B0_04"/>
+                  <pin peripheral="JTAG" signal="TRSTB" pin_num="106" pin_signal="GPIO_AD_B0_05"/>
+                  <pin peripheral="FLEXSPI" signal="FLEXSPI_A_SS0_B" pin_num="19" pin_signal="GPIO_SD_B1_11"/>
+                  <pin peripheral="FLEXSPI" signal="FLEXSPI_A_SCLK" pin_num="24" pin_signal="GPIO_SD_B1_07"/>
+                  <pin peripheral="FLEXSPI" signal="FLEXSPI_A_DATA3" pin_num="25" pin_signal="GPIO_SD_B1_06"/>
+                  <pin peripheral="FLEXSPI" signal="FLEXSPI_A_DATA2" pin_num="22" pin_signal="GPIO_SD_B1_09"/>
+                  <pin peripheral="FLEXSPI" signal="FLEXSPI_A_DATA1" pin_num="21" pin_signal="GPIO_SD_B1_10"/>
+                  <pin peripheral="FLEXSPI" signal="FLEXSPI_A_DATA0" pin_num="23" pin_signal="GPIO_SD_B1_08"/>
+                  <pin peripheral="LPUART8" signal="RX" pin_num="28" pin_signal="GPIO_SD_B1_03"/>
+                  <pin peripheral="LPUART8" signal="TX" pin_num="30" pin_signal="GPIO_SD_B1_02"/>
+                  <pin peripheral="CAN1" signal="RX" pin_num="32" pin_signal="GPIO_SD_B1_01"/>
+                  <pin peripheral="CAN1" signal="TX" pin_num="33" pin_signal="GPIO_SD_B1_00"/>
+                  <pin peripheral="GPIO3" signal="gpio_io, 24" pin_num="27" pin_signal="GPIO_SD_B1_04"/>
+                  <pin peripheral="GPIO3" signal="gpio_io, 25" pin_num="26" pin_signal="GPIO_SD_B1_05"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 17" pin_num="91" pin_signal="GPIO_AD_B1_01"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 16" pin_num="92" pin_signal="GPIO_AD_B1_00"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 24" pin_num="82" pin_signal="GPIO_AD_B1_08"/>
+                  <pin peripheral="GPIO1" signal="gpio_io, 25" pin_num="81" pin_signal="GPIO_AD_B1_09"/>
+               </pins>
+            </function>
+         </functions_list>
+      </pins>
+   </tools>
+</configuration>
