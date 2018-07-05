@@ -37,6 +37,7 @@ LIBS:Power_Management
 LIBS:ksz8081
 LIBS:isl3178e
 LIBS:tcan332d
+LIBS:usb-emi
 LIBS:imxrt1020-board-cache
 EELAYER 25 0
 EELAYER END

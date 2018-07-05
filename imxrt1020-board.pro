@@ -1,4 +1,4 @@
-update=dom 01 jul 2018 15:52:14 -03
+update=jue 05 jul 2018 00:43:50 -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,3 +67,4 @@ LibName35=Power_Management
 LibName36=ksz8081
 LibName37=isl3178e
 LibName38=tcan332d
+LibName39=usb-emi
