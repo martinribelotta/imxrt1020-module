@@ -1,4 +1,4 @@
-update=jue 05 jul 2018 00:43:50 -03
+update=sáb 07 jul 2018 16:33:11 -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,3 +68,13 @@ LibName36=ksz8081
 LibName37=isl3178e
 LibName38=tcan332d
 LibName39=usb-emi
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=doc/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
