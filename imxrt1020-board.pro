@@ -1,4 +1,4 @@
-update=sáb 07 jul 2018 16:33:11 -03
+update=dom 08 jul 2018 16:20:56 -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=doc/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -68,13 +78,4 @@ LibName36=ksz8081
 LibName37=isl3178e
 LibName38=tcan332d
 LibName39=usb-emi
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=doc/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName40=prtr5v0u2x

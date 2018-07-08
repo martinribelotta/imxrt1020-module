@@ -38,6 +38,7 @@ LIBS:ksz8081
 LIBS:isl3178e
 LIBS:tcan332d
 LIBS:usb-emi
+LIBS:prtr5v0u2x
 LIBS:imxrt1020-board-cache
 EELAYER 25 0
 EELAYER END
