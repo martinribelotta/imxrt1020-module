@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EMI_Filter
+D EMI 2-inductor-filter
+K EMI filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP EMI_Filter_CommonMode
+D EMI 2-inductor common-mode-filter
+K EMI common mode filter
+F ~
+$ENDCMP
+#
+$CMP EMI_Filter_LL
+D EMI 2-inductor-filter
+K EMI filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
+$ENDCMP
+#
+#End Doc Library

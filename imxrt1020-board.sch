@@ -39,6 +39,7 @@ LIBS:isl3178e
 LIBS:tcan332d
 LIBS:usb-emi
 LIBS:prtr5v0u2x
+LIBS:emi_filter
 LIBS:imxrt1020-board-cache
 EELAYER 25 0
 EELAYER END
