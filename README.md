@@ -1,6 +1,8 @@
 # imxrt1020-module
 iMX RT 1020 CPU module
 
+### Brach with r/c 0402 footprints
+
 ![1530582546093](doc/images/1530582546093.png)
 
 ## Schematics
