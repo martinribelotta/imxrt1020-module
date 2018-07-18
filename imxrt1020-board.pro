@@ -1,4 +1,4 @@
-update=dom 08 jul 2018 16:41:24 -03
+update=mié 18 jul 2018 19:40:05 -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -80,3 +80,4 @@ LibName38=tcan332d
 LibName39=usb-emi
 LibName40=prtr5v0u2x
 LibName41=emi_filter
+LibName42=usblc6-2
