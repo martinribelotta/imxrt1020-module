@@ -40,6 +40,7 @@ LIBS:tcan332d
 LIBS:usb-emi
 LIBS:prtr5v0u2x
 LIBS:emi_filter
+LIBS:usblc6-2
 LIBS:imxrt1020-board-cache
 EELAYER 25 0
 EELAYER END
@@ -118,4 +119,7 @@ Wire Wire Line
 	5450 2700 6200 2700
 Wire Wire Line
 	6200 2600 5450 2600
+Wire Wire Line
+	2950 2300 3150 2300
+NoConn ~ 3150 2300
 $EndSCHEMATC
