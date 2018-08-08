@@ -770,7 +770,7 @@ F 3 "" H 750 4550 50  0001 C CNN
 	1    750  4550
 	0    1    1    0   
 $EndComp
-Text HLabel 1450 6000 2    60   Output ~ 0
+Text HLabel 950  6750 2    60   Output ~ 0
 JTAG_nRST
 $Comp
 L Conn_01x02 J46
@@ -891,37 +891,26 @@ Text Label 1300 4350 2    60   ~ 0
 JTAG_TDO
 Text Label 1300 4450 2    60   ~ 0
 JTAG_TDI
-Text Label 950  6100 2    60   ~ 0
-JTAG_TCK
-Text Label 950  6000 2    60   ~ 0
-JTAG_TMS
 Text Label 1450 6100 0    60   ~ 0
+JTAG_TCK
+Text Label 1450 6000 0    60   ~ 0
+JTAG_TMS
+Text Label 1450 6400 0    60   ~ 0
 JTAG_TRST
 Text Label 1450 6200 0    60   ~ 0
 JTAG_TDO
-Text Label 950  6200 2    60   ~ 0
+Text Label 1450 6300 0    60   ~ 0
 JTAG_TDI
 $Comp
 L GND #PWR059
 U 1 1 5B38B0C7
-P 1200 6500
-F 0 "#PWR059" H 1200 6250 50  0001 C CNN
-F 1 "GND" H 1200 6350 50  0000 C CNN
-F 2 "" H 1200 6500 50  0001 C CNN
-F 3 "" H 1200 6500 50  0001 C CNN
-	1    1200 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Odd_Even J47
-U 1 1 5B38DD86
-P 1150 6100
-F 0 "J47" H 1200 6300 50  0000 C CNN
-F 1 "JTAG" H 1200 5800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm_SMD" H 1150 6100 50  0001 C CNN
-F 3 "" H 1150 6100 50  0001 C CNN
-	1    1150 6100
-	1    0    0    -1  
+P 700 6400
+F 0 "#PWR059" H 700 6150 50  0001 C CNN
+F 1 "GND" H 700 6250 50  0000 C CNN
+F 2 "" H 700 6400 50  0001 C CNN
+F 3 "" H 700 6400 50  0001 C CNN
+	1    700  6400
+	0    1    1    0   
 $EndComp
 Text Label 1300 4150 2    60   ~ 0
 UART1_TX
@@ -1670,15 +1659,6 @@ Wire Wire Line
 	5300 5400 5800 5400
 Wire Wire Line
 	5300 5300 5800 5300
-Connection ~ 1200 6450
-Wire Wire Line
-	1200 6500 1200 6450
-Wire Wire Line
-	1450 6450 1450 6300
-Wire Wire Line
-	950  6450 1450 6450
-Wire Wire Line
-	950  6300 950  6450
 Wire Wire Line
 	3350 800  3350 1000
 Wire Wire Line
@@ -2493,4 +2473,41 @@ Text Label 6800 800  0    60   ~ 0
 OTG_D+
 Wire Wire Line
 	6250 900  6300 900 
+$Comp
+L Conn_02x05_Odd_Even J47
+U 1 1 5B6A4644
+P 1150 6200
+F 0 "J47" H 1200 6500 50  0000 C CNN
+F 1 "JTAG" H 1200 5900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm_SMD" H 1150 6200 50  0001 C CNN
+F 3 "" H 1150 6200 50  0001 C CNN
+	1    1150 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6100 800  6100
+Wire Wire Line
+	800  6100 800  6400
+Wire Wire Line
+	700  6400 950  6400
+Wire Wire Line
+	950  6200 800  6200
+Connection ~ 800  6200
+Wire Wire Line
+	950  6000 800  6000
+Wire Wire Line
+	800  6000 800  5900
+$Comp
+L +3.3V #PWR086
+U 1 1 5B6A5C0F
+P 800 5900
+F 0 "#PWR086" H 800 5750 50  0001 C CNN
+F 1 "+3.3V" H 800 6040 50  0000 C CNN
+F 2 "" H 800 5900 50  0001 C CNN
+F 3 "" H 800 5900 50  0001 C CNN
+	1    800  5900
+	-1   0    0    -1  
+$EndComp
+Connection ~ 800  6400
+NoConn ~ 950  6300
 $EndSCHEMATC
