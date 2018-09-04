@@ -72,4 +72,37 @@ Wire Wire Line
 	5450 2700 6200 2700
 Wire Wire Line
 	6200 2600 5450 2600
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 5B90C50D
+P 2100 3700
+F 0 "LOGO1" H 2100 3975 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 2100 3475 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen" H 2100 3700 50  0001 C CNN
+F 3 "~" H 2100 3700 50  0001 C CNN
+	1    2100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO2
+U 1 1 5B90CCBA
+P 2100 4250
+F 0 "LOGO2" H 2100 4525 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 2100 4025 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo2_6mm_SilkScreen" H 2100 4250 50  0001 C CNN
+F 3 "~" H 2100 4250 50  0001 C CNN
+	1    2100 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO3
+U 1 1 5B90D198
+P 2100 4800
+F 0 "LOGO3" H 2100 5075 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 2100 4575 50  0001 C CNN
+F 2 "local:ciaa_7-logo" H 2100 4800 50  0001 C CNN
+F 3 "~" H 2100 4800 50  0001 C CNN
+	1    2100 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
