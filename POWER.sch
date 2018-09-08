@@ -762,22 +762,9 @@ AR Path="/5B341F01" Ref="C59"  Part="1"
 AR Path="/5B320D15/5B341F01" Ref="C59"  Part="1" 
 F 0 "C59" H 5560 1970 50  0000 L CNN
 F 1 "47u" H 5560 1820 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x4.5" H 5550 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5550 1900 50  0001 C CNN
 F 3 "" H 5550 1900 50  0001 C CNN
 	1    5550 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C58
-U 1 1 5B341FCE
-P 4350 1850
-AR Path="/5B341FCE" Ref="C58"  Part="1" 
-AR Path="/5B320D15/5B341FCE" Ref="C58"  Part="1" 
-F 0 "C58" H 4360 1920 50  0000 L CNN
-F 1 "220u" H 4360 1770 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x4.5" H 4350 1850 50  0001 C CNN
-F 3 "" H 4350 1850 50  0001 C CNN
-	1    4350 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -788,7 +775,7 @@ AR Path="/5B342236" Ref="C60"  Part="1"
 AR Path="/5B320D15/5B342236" Ref="C60"  Part="1" 
 F 0 "C60" H 5810 1970 50  0000 L CNN
 F 1 "10u" H 5810 1820 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 5800 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5800 1900 50  0001 C CNN
 F 3 "" H 5800 1900 50  0001 C CNN
 	1    5800 1900
 	1    0    0    -1  
@@ -1802,4 +1789,17 @@ Wire Wire Line
 	3900 1800 3900 1700
 Connection ~ 3600 1700
 Connection ~ 3900 1700
+$Comp
+L Device:C_Small C?
+U 1 1 5B9557D6
+P 4350 1850
+AR Path="/5B9557D6" Ref="C?"  Part="1" 
+AR Path="/5B320D15/5B9557D6" Ref="C58"  Part="1" 
+F 0 "C58" H 4360 1920 50  0000 L CNN
+F 1 "47u" H 4360 1770 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4350 1850 50  0001 C CNN
+F 3 "" H 4350 1850 50  0001 C CNN
+	1    4350 1850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
