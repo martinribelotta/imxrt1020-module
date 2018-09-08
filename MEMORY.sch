@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title "IMX-RT 1021 in LQFP144 board"
 Date "2018-07-07"
 Rev "0.1"
@@ -1140,10 +1140,10 @@ U 1 1 5BA28258
 P 3550 2150
 F 0 "JP1" H 3550 2385 50  0000 C CNN
 F 1 "ROMBOOT" H 3550 2294 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3550 2150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 3550 2150 50  0001 C CNN
 F 3 "~" H 3550 2150 50  0001 C CNN
 	1    3550 2150
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3350 2150 3350 2450

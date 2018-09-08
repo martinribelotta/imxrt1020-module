@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24804688"
-     inkscape:cx="1073.8791"
-     inkscape:cy="451.3172"
+     inkscape:cx="170.61237"
+     inkscape:cy="494.82985"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,11 +57,16 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-28.362161)">
+    <path
+       style="fill:#004455;fill-opacity:1;stroke:none;stroke-width:40;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 519.94249,836.14244 A 491.88385,341.31201 0 0 1 48.129887,590.53983 566.00337,339.44694 0 0 0 519.94249,742.88985 a 566.00337,339.44694 0 0 0 471.83,-152.3175 491.88385,341.31201 0 0 1 -471.83,245.57009 z"
+       id="path4225"
+       inkscape:connector-curvature="0" />
     <g
-       id="g4325"
-       transform="translate(-13.049288,34.515895)">
+       id="g4158"
+       transform="translate(5.7013967,-5.7013882)">
       <g
-         transform="matrix(0.69952129,0,0,0.69952129,35.180704,134.16356)"
+         transform="matrix(0.69952129,0,0,0.69952129,22.131416,168.67945)"
          id="g4210">
         <path
            style="fill:#004455;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -87,23 +92,18 @@
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="ccccccccc" />
       </g>
-      <path
-         inkscape:connector-curvature="0"
-         id="path4225"
-         d="M 522.07809,558.50421 A 491.88385,341.31201 0 0 0 50.265486,804.10681 566.00337,339.44694 0 0 1 522.07809,651.75679 566.00337,339.44694 0 0 1 993.90811,804.07428 491.88385,341.31201 0 0 0 522.07809,558.50421 Z"
-         style="fill:#004455;fill-opacity:1;stroke:none;stroke-width:40;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          transform="matrix(0,-1,1,0,0,0)"
          style="fill:#004455;fill-opacity:1;stroke:#4d4d4d;stroke-width:0.47281155;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect4144-5"
          width="43.019951"
          height="76.574883"
-         x="-393.35498"
-         y="723.01379" />
+         x="-427.87088"
+         y="709.96448" />
       <path
          inkscape:connector-curvature="0"
          id="path4284"
-         d="m 798.23588,209.20369 0,41.59977 122.14151,0 L 831.6412,404.5 l 0,96.02078 168.19189,-291.31709 -201.59721,0 z"
+         d="m 785.18659,243.71958 0,41.59977 122.14151,0 -88.73619,153.69654 0,96.02079 168.19189,-291.3171 -201.59721,0 z"
          style="fill:#004455;fill-opacity:1;stroke:none;stroke-width:40;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
   </g>

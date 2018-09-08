@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title "IMX-RT 1021 in LQFP144 board"
 Date "2018-07-07"
 Rev "0.1"
@@ -876,28 +876,6 @@ F 3 "" H 3250 2550 50  0001 C CNN
 $EndComp
 Text HLabel 3550 1700 0    60   Input ~ 0
 PWR_IN1
-$Comp
-L Jumper:SolderJumper_2_Open J45
-U 1 1 5B377487
-P 3700 1700
-F 0 "J45" H 3800 1850 50  0000 C CNN
-F 1 "GS2" H 3600 1850 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" V 3774 1700 50  0001 C CNN
-F 3 "" H 3700 1700 50  0001 C CNN
-	1    3700 1700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open J44
-U 1 1 5B377A0E
-P 3700 1450
-F 0 "J44" H 3600 1350 50  0000 C CNN
-F 1 "GS2" H 3800 1350 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" V 3774 1450 50  0001 C CNN
-F 3 "" H 3700 1450 50  0001 C CNN
-	1    3700 1450
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5350 6000 5150 6000
 Wire Wire Line
@@ -1232,8 +1210,6 @@ Wire Wire Line
 	5800 2100 5800 2000
 Connection ~ 5550 2100
 Wire Wire Line
-	3850 1700 3900 1700
-Wire Wire Line
 	4350 1700 4350 1750
 Connection ~ 4350 1700
 Connection ~ 5800 1700
@@ -1248,13 +1224,6 @@ Wire Wire Line
 	3250 2300 3100 2300
 Connection ~ 3100 2300
 Connection ~ 4000 1700
-Wire Wire Line
-	3900 1700 3900 1450
-Wire Wire Line
-	3900 1450 3850 1450
-Connection ~ 3900 1700
-Text HLabel 3550 1450 0    60   Input ~ 0
-PWR_IN2
 $Comp
 L Regulator_Linear:LM1084-3.3 U5
 U 1 1 5B3ADB56
@@ -1793,8 +1762,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 1700 4350 1700
 Wire Wire Line
-	3900 1700 4000 1700
-Wire Wire Line
 	5200 2750 5350 2750
 Wire Wire Line
 	1350 3600 1350 3700
@@ -1812,4 +1779,6 @@ Wire Wire Line
 	2200 4000 3350 4000
 Wire Wire Line
 	1800 4000 1800 4500
+Wire Wire Line
+	3550 1700 4000 1700
 $EndSCHEMATC

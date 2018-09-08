@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title "IMX-RT 1021 in LQFP144 board"
 Date "2018-07-07"
 Rev "0.1"
@@ -295,446 +295,6 @@ NoConn ~ 2750 1400
 Text HLabel 3200 800  0    60   Output ~ 0
 USB_VBUS
 $Comp
-L Connector:Conn_01x01_Female J4
-U 1 1 5B35B5A1
-P 8100 850
-F 0 "J4" H 8150 850 50  0000 C CNN
-F 1 "CASTELATED" H 8450 850 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 850 50  0001 C CNN
-F 3 "" H 8100 850 50  0001 C CNN
-	1    8100 850 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J5
-U 1 1 5B3638CC
-P 8100 950
-F 0 "J5" H 8150 950 50  0000 C CNN
-F 1 "CASTELATED" H 8450 950 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 950 50  0001 C CNN
-F 3 "" H 8100 950 50  0001 C CNN
-	1    8100 950 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J6
-U 1 1 5B363918
-P 8100 1050
-F 0 "J6" H 8150 1050 50  0000 C CNN
-F 1 "CASTELATED" H 8450 1050 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 1050 50  0001 C CNN
-F 3 "" H 8100 1050 50  0001 C CNN
-	1    8100 1050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J7
-U 1 1 5B36396B
-P 8100 1150
-F 0 "J7" H 8150 1150 50  0000 C CNN
-F 1 "CASTELATED" H 8450 1150 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 1150 50  0001 C CNN
-F 3 "" H 8100 1150 50  0001 C CNN
-	1    8100 1150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J8
-U 1 1 5B3639BD
-P 8100 1250
-F 0 "J8" H 8150 1250 50  0000 C CNN
-F 1 "CASTELATED" H 8450 1250 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 1250 50  0001 C CNN
-F 3 "" H 8100 1250 50  0001 C CNN
-	1    8100 1250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J9
-U 1 1 5B363B0C
-P 8100 1350
-F 0 "J9" H 8150 1350 50  0000 C CNN
-F 1 "CASTELATED" H 8450 1350 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 1350 50  0001 C CNN
-F 3 "" H 8100 1350 50  0001 C CNN
-	1    8100 1350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J10
-U 1 1 5B363B12
-P 8100 1450
-F 0 "J10" H 8150 1450 50  0000 C CNN
-F 1 "CASTELATED" H 8450 1450 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 1450 50  0001 C CNN
-F 3 "" H 8100 1450 50  0001 C CNN
-	1    8100 1450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J11
-U 1 1 5B363B18
-P 8100 1550
-F 0 "J11" H 8150 1550 50  0000 C CNN
-F 1 "CASTELATED" H 8450 1550 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 1550 50  0001 C CNN
-F 3 "" H 8100 1550 50  0001 C CNN
-	1    8100 1550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J12
-U 1 1 5B363B1E
-P 8100 1650
-F 0 "J12" H 8150 1650 50  0000 C CNN
-F 1 "CASTELATED" H 8450 1650 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 1650 50  0001 C CNN
-F 3 "" H 8100 1650 50  0001 C CNN
-	1    8100 1650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J13
-U 1 1 5B363B24
-P 8100 1750
-F 0 "J13" H 8150 1750 50  0000 C CNN
-F 1 "CASTELATED" H 8450 1750 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 1750 50  0001 C CNN
-F 3 "" H 8100 1750 50  0001 C CNN
-	1    8100 1750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J14
-U 1 1 5B363D3E
-P 8100 1850
-F 0 "J14" H 8150 1850 50  0000 C CNN
-F 1 "CASTELATED" H 8450 1850 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 1850 50  0001 C CNN
-F 3 "" H 8100 1850 50  0001 C CNN
-	1    8100 1850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J15
-U 1 1 5B363D44
-P 8100 1950
-F 0 "J15" H 8150 1950 50  0000 C CNN
-F 1 "CASTELATED" H 8450 1950 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 1950 50  0001 C CNN
-F 3 "" H 8100 1950 50  0001 C CNN
-	1    8100 1950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J16
-U 1 1 5B363D4A
-P 8100 2050
-F 0 "J16" H 8150 2050 50  0000 C CNN
-F 1 "CASTELATED" H 8450 2050 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 2050 50  0001 C CNN
-F 3 "" H 8100 2050 50  0001 C CNN
-	1    8100 2050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J17
-U 1 1 5B363D50
-P 8100 2150
-F 0 "J17" H 8150 2150 50  0000 C CNN
-F 1 "CASTELATED" H 8450 2150 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 2150 50  0001 C CNN
-F 3 "" H 8100 2150 50  0001 C CNN
-	1    8100 2150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J18
-U 1 1 5B363D56
-P 8100 2250
-F 0 "J18" H 8150 2250 50  0000 C CNN
-F 1 "CASTELATED" H 8450 2250 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 2250 50  0001 C CNN
-F 3 "" H 8100 2250 50  0001 C CNN
-	1    8100 2250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J19
-U 1 1 5B363D5C
-P 8100 2350
-F 0 "J19" H 8150 2350 50  0000 C CNN
-F 1 "CASTELATED" H 8450 2350 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 2350 50  0001 C CNN
-F 3 "" H 8100 2350 50  0001 C CNN
-	1    8100 2350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J20
-U 1 1 5B363D62
-P 8100 2450
-F 0 "J20" H 8150 2450 50  0000 C CNN
-F 1 "CASTELATED" H 8450 2450 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 2450 50  0001 C CNN
-F 3 "" H 8100 2450 50  0001 C CNN
-	1    8100 2450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J21
-U 1 1 5B363D68
-P 8100 2550
-F 0 "J21" H 8150 2550 50  0000 C CNN
-F 1 "CASTELATED" H 8450 2550 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 2550 50  0001 C CNN
-F 3 "" H 8100 2550 50  0001 C CNN
-	1    8100 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J22
-U 1 1 5B363D6E
-P 8100 2650
-F 0 "J22" H 8150 2650 50  0000 C CNN
-F 1 "CASTELATED" H 8450 2650 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 2650 50  0001 C CNN
-F 3 "" H 8100 2650 50  0001 C CNN
-	1    8100 2650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J23
-U 1 1 5B363D74
-P 8100 2750
-F 0 "J23" H 8150 2750 50  0000 C CNN
-F 1 "CASTELATED" H 8450 2750 50  0000 C CNN
-F 2 "local:castelated_pad" H 8100 2750 50  0001 C CNN
-F 3 "" H 8100 2750 50  0001 C CNN
-	1    8100 2750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J24
-U 1 1 5B36401C
-P 10250 850
-F 0 "J24" H 10300 850 50  0000 C CNN
-F 1 "CASTELATED" H 10650 850 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 850 50  0001 C CNN
-F 3 "" H 10250 850 50  0001 C CNN
-	1    10250 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J25
-U 1 1 5B364022
-P 10250 950
-F 0 "J25" H 10300 950 50  0000 C CNN
-F 1 "CASTELATED" H 10650 950 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 950 50  0001 C CNN
-F 3 "" H 10250 950 50  0001 C CNN
-	1    10250 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J26
-U 1 1 5B364028
-P 10250 1050
-F 0 "J26" H 10300 1050 50  0000 C CNN
-F 1 "CASTELATED" H 10650 1050 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 1050 50  0001 C CNN
-F 3 "" H 10250 1050 50  0001 C CNN
-	1    10250 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J27
-U 1 1 5B36402E
-P 10250 1150
-F 0 "J27" H 10300 1150 50  0000 C CNN
-F 1 "CASTELATED" H 10650 1150 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 1150 50  0001 C CNN
-F 3 "" H 10250 1150 50  0001 C CNN
-	1    10250 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J28
-U 1 1 5B364034
-P 10250 1250
-F 0 "J28" H 10300 1250 50  0000 C CNN
-F 1 "CASTELATED" H 10650 1250 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 1250 50  0001 C CNN
-F 3 "" H 10250 1250 50  0001 C CNN
-	1    10250 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J29
-U 1 1 5B36403A
-P 10250 1350
-F 0 "J29" H 10300 1350 50  0000 C CNN
-F 1 "CASTELATED" H 10650 1350 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 1350 50  0001 C CNN
-F 3 "" H 10250 1350 50  0001 C CNN
-	1    10250 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J30
-U 1 1 5B364040
-P 10250 1450
-F 0 "J30" H 10300 1450 50  0000 C CNN
-F 1 "CASTELATED" H 10650 1450 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 1450 50  0001 C CNN
-F 3 "" H 10250 1450 50  0001 C CNN
-	1    10250 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J31
-U 1 1 5B364046
-P 10250 1550
-F 0 "J31" H 10300 1550 50  0000 C CNN
-F 1 "CASTELATED" H 10650 1550 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 1550 50  0001 C CNN
-F 3 "" H 10250 1550 50  0001 C CNN
-	1    10250 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J32
-U 1 1 5B36404C
-P 10250 1650
-F 0 "J32" H 10300 1650 50  0000 C CNN
-F 1 "CASTELATED" H 10650 1650 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 1650 50  0001 C CNN
-F 3 "" H 10250 1650 50  0001 C CNN
-	1    10250 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J33
-U 1 1 5B364052
-P 10250 1750
-F 0 "J33" H 10300 1750 50  0000 C CNN
-F 1 "CASTELATED" H 10650 1750 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 1750 50  0001 C CNN
-F 3 "" H 10250 1750 50  0001 C CNN
-	1    10250 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J34
-U 1 1 5B364058
-P 10250 1850
-F 0 "J34" H 10300 1850 50  0000 C CNN
-F 1 "CASTELATED" H 10650 1850 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 1850 50  0001 C CNN
-F 3 "" H 10250 1850 50  0001 C CNN
-	1    10250 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J35
-U 1 1 5B36405E
-P 10250 1950
-F 0 "J35" H 10300 1950 50  0000 C CNN
-F 1 "CASTELATED" H 10650 1950 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 1950 50  0001 C CNN
-F 3 "" H 10250 1950 50  0001 C CNN
-	1    10250 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J36
-U 1 1 5B364064
-P 10250 2050
-F 0 "J36" H 10300 2050 50  0000 C CNN
-F 1 "CASTELATED" H 10650 2050 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 2050 50  0001 C CNN
-F 3 "" H 10250 2050 50  0001 C CNN
-	1    10250 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J37
-U 1 1 5B36406A
-P 10250 2150
-F 0 "J37" H 10300 2150 50  0000 C CNN
-F 1 "CASTELATED" H 10650 2150 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 2150 50  0001 C CNN
-F 3 "" H 10250 2150 50  0001 C CNN
-	1    10250 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J38
-U 1 1 5B364070
-P 10250 2250
-F 0 "J38" H 10300 2250 50  0000 C CNN
-F 1 "CASTELATED" H 10650 2250 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 2250 50  0001 C CNN
-F 3 "" H 10250 2250 50  0001 C CNN
-	1    10250 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J39
-U 1 1 5B364076
-P 10250 2350
-F 0 "J39" H 10300 2350 50  0000 C CNN
-F 1 "CASTELATED" H 10650 2350 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 2350 50  0001 C CNN
-F 3 "" H 10250 2350 50  0001 C CNN
-	1    10250 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J40
-U 1 1 5B36407C
-P 10250 2450
-F 0 "J40" H 10300 2450 50  0000 C CNN
-F 1 "CASTELATED" H 10650 2450 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 2450 50  0001 C CNN
-F 3 "" H 10250 2450 50  0001 C CNN
-	1    10250 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J41
-U 1 1 5B364082
-P 10250 2550
-F 0 "J41" H 10300 2550 50  0000 C CNN
-F 1 "CASTELATED" H 10650 2550 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 2550 50  0001 C CNN
-F 3 "" H 10250 2550 50  0001 C CNN
-	1    10250 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J42
-U 1 1 5B364088
-P 10250 2650
-F 0 "J42" H 10300 2650 50  0000 C CNN
-F 1 "CASTELATED" H 10650 2650 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 2650 50  0001 C CNN
-F 3 "" H 10250 2650 50  0001 C CNN
-	1    10250 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J43
-U 1 1 5B36408E
-P 10250 2750
-F 0 "J43" H 10300 2750 50  0000 C CNN
-F 1 "CASTELATED" H 10650 2750 50  0000 C CNN
-F 2 "local:castelated_pad" H 10250 2750 50  0001 C CNN
-F 3 "" H 10250 2750 50  0001 C CNN
-	1    10250 2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR058
 U 1 1 5B36F8BA
 P 600 4750
@@ -755,41 +315,6 @@ F 2 "Resistor_SMD:R_0402_1005Metric" H 750 4550 50  0001 C CNN
 F 3 "" H 750 4550 50  0001 C CNN
 	1    750  4550
 	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J46
-U 1 1 5B378411
-P 1650 1000
-F 0 "J46" H 1650 1100 50  0000 C CNN
-F 1 "PWR_IN" H 1650 800 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 1650 1000 50  0001 C CNN
-F 3 "" H 1650 1000 50  0001 C CNN
-	1    1650 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR059
-U 1 1 5B378603
-P 1350 1200
-F 0 "#PWR059" H 1350 950 50  0001 C CNN
-F 1 "GND" H 1350 1050 50  0000 C CNN
-F 2 "" H 1350 1200 50  0001 C CNN
-F 3 "" H 1350 1200 50  0001 C CNN
-	1    1350 1200
-	1    0    0    -1  
-$EndComp
-Text HLabel 1000 1000 0    60   Output ~ 0
-DC_IN
-$Comp
-L Device:D_Small D1
-U 1 1 5B3797F3
-P 1300 1000
-F 0 "D1" H 1250 1080 50  0000 L CNN
-F 1 "S1GTR" H 1150 920 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" V 1300 1000 50  0001 C CNN
-F 3 "" V 1300 1000 50  0001 C CNN
-	1    1300 1000
-	1    0    0    1   
 $EndComp
 Text Label 1300 4650 2    60   ~ 0
 JTAG_TCK
@@ -1362,124 +887,6 @@ F 3 "" H 1100 7450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J49
-U 1 1 5B3A6BCF
-P 3000 6900
-F 0 "J49" H 3050 6900 50  0000 C CNN
-F 1 "CASTELATED" H 3400 6900 50  0000 C CNN
-F 2 "local:castelated_pad" H 3000 6900 50  0001 C CNN
-F 3 "" H 3000 6900 50  0001 C CNN
-	1    3000 6900
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J51
-U 1 1 5B3A6F1B
-P 3000 7100
-F 0 "J51" H 3050 7100 50  0000 C CNN
-F 1 "CASTELATED" H 3400 7100 50  0000 C CNN
-F 2 "local:castelated_pad" H 3000 7100 50  0001 C CNN
-F 3 "" H 3000 7100 50  0001 C CNN
-	1    3000 7100
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J50
-U 1 1 5B3A702D
-P 3000 7000
-F 0 "J50" H 3050 7000 50  0000 C CNN
-F 1 "CASTELATED" H 3400 7000 50  0000 C CNN
-F 2 "local:castelated_pad" H 3000 7000 50  0001 C CNN
-F 3 "" H 3000 7000 50  0001 C CNN
-	1    3000 7000
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J52
-U 1 1 5B3A7249
-P 3000 7200
-F 0 "J52" H 3050 7200 50  0000 C CNN
-F 1 "CASTELATED" H 3400 7200 50  0000 C CNN
-F 2 "local:castelated_pad" H 3000 7200 50  0001 C CNN
-F 3 "" H 3000 7200 50  0001 C CNN
-	1    3000 7200
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J53
-U 1 1 5B3A7363
-P 3000 7300
-F 0 "J53" H 3050 7300 50  0000 C CNN
-F 1 "CASTELATED" H 3400 7300 50  0000 C CNN
-F 2 "local:castelated_pad" H 3000 7300 50  0001 C CNN
-F 3 "" H 3000 7300 50  0001 C CNN
-	1    3000 7300
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J55
-U 1 1 5B3A7653
-P 3000 7500
-F 0 "J55" H 3050 7500 50  0000 C CNN
-F 1 "CASTELATED" H 3400 7500 50  0000 C CNN
-F 2 "local:castelated_pad" H 3000 7500 50  0001 C CNN
-F 3 "" H 3000 7500 50  0001 C CNN
-	1    3000 7500
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J54
-U 1 1 5B3A7659
-P 3000 7400
-F 0 "J54" H 3050 7400 50  0000 C CNN
-F 1 "CASTELATED" H 3400 7400 50  0000 C CNN
-F 2 "local:castelated_pad" H 3000 7400 50  0001 C CNN
-F 3 "" H 3000 7400 50  0001 C CNN
-	1    3000 7400
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J56
-U 1 1 5B3A765F
-P 3000 7600
-F 0 "J56" H 3050 7600 50  0000 C CNN
-F 1 "CASTELATED" H 3400 7600 50  0000 C CNN
-F 2 "local:castelated_pad" H 3000 7600 50  0001 C CNN
-F 3 "" H 3000 7600 50  0001 C CNN
-	1    3000 7600
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J57
-U 1 1 5B3A7665
-P 3000 7700
-F 0 "J57" H 3050 7700 50  0000 C CNN
-F 1 "CASTELATED" H 3400 7700 50  0000 C CNN
-F 2 "local:castelated_pad" H 3000 7700 50  0001 C CNN
-F 3 "" H 3000 7700 50  0001 C CNN
-	1    3000 7700
-	1    0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR078
-U 1 1 5B3A819F
-P 2000 7600
-F 0 "#PWR078" H 2000 7350 50  0001 C CNN
-F 1 "GND" H 2000 7450 50  0000 C CNN
-F 2 "" H 2000 7600 50  0001 C CNN
-F 3 "" H 2000 7600 50  0001 C CNN
-	1    2000 7600
-	0    1    1    0   
-$EndComp
-Text Label 2800 7100 2    60   ~ 0
-CAN_H
-Text Label 2800 6900 2    60   ~ 0
-CAN_L
-Text Label 2800 7500 2    60   ~ 0
-RS485_A
-Text Label 2800 7700 2    60   ~ 0
-RS485_B
-$Comp
 L Device:C_Small C70
 U 1 1 5B3B19A5
 P 8400 5400
@@ -1516,22 +923,6 @@ F 3 "" H 8300 5550 50  0001 C CNN
 	1    8300 5550
 	0    1    -1   0   
 $EndComp
-Connection ~ 2100 7600
-Connection ~ 2100 7300
-Wire Wire Line
-	2100 7300 2800 7300
-Connection ~ 2100 7400
-Wire Wire Line
-	2100 7400 2800 7400
-Connection ~ 2100 7200
-Wire Wire Line
-	2100 7200 2800 7200
-Wire Wire Line
-	2100 7000 2800 7000
-Wire Wire Line
-	2100 7000 2100 7200
-Wire Wire Line
-	2000 7600 2100 7600
 Wire Wire Line
 	1100 7450 1450 7450
 Connection ~ 3900 5900
@@ -1716,14 +1107,6 @@ Wire Wire Line
 Wire Wire Line
 	850  4550 1300 4550
 Wire Wire Line
-	1350 1200 1350 1100
-Wire Wire Line
-	1350 1100 1450 1100
-Wire Wire Line
-	1400 1000 1450 1000
-Wire Wire Line
-	1000 1000 1200 1000
-Wire Wire Line
 	600  5500 1050 5500
 Connection ~ 700  5300
 Connection ~ 700  5400
@@ -1810,7 +1193,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 2550 10050 2550
 Wire Wire Line
-	9450 2650 10050 2650
+	9450 2650 10000 2650
 Wire Wire Line
 	9450 2750 10050 2750
 Wire Wire Line
@@ -1962,103 +1345,59 @@ F 3 "" H 1100 7150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1100 7150 1450 7150
-$Comp
-L Connector:Conn_01x01_Female J67
-U 1 1 5B3B0A7E
-P 4650 7300
-F 0 "J67" H 4700 7300 50  0000 C CNN
-F 1 "CASTELATED" H 5050 7300 50  0000 C CNN
-F 2 "local:castelated_pad" H 4650 7300 50  0001 C CNN
-F 3 "" H 4650 7300 50  0001 C CNN
-	1    4650 7300
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J68
-U 1 1 5B3B0A84
-P 4650 7400
-F 0 "J68" H 4700 7400 50  0000 C CNN
-F 1 "CASTELATED" H 5050 7400 50  0000 C CNN
-F 2 "local:castelated_pad" H 4650 7400 50  0001 C CNN
-F 3 "" H 4650 7400 50  0001 C CNN
-	1    4650 7400
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	3750 7400 4450 7400
-Wire Wire Line
-	3750 7300 4450 7300
-Wire Wire Line
-	3750 7300 3750 7400
-Connection ~ 3750 7400
-$Comp
-L power:GND #PWR085
-U 1 1 5B3B1082
-P 3750 7600
-F 0 "#PWR085" H 3750 7350 50  0001 C CNN
-F 1 "GND" H 3750 7450 50  0000 C CNN
-F 2 "" H 3750 7600 50  0001 C CNN
-F 3 "" H 3750 7600 50  0001 C CNN
-	1    3750 7600
-	1    0    0    -1  
-$EndComp
 NoConn ~ 5800 5600
 $Comp
 L Connector_Generic:Conn_01x01 MH1
 U 1 1 5B3D7770
-P 6650 1800
+P 7000 1800
 AR Path="/5B3D7770" Ref="MH1"  Part="1" 
 AR Path="/5B320D1B/5B3D7770" Ref="MH1"  Part="1" 
-F 0 "MH1" H 7100 1800 50  0000 C CNN
-F 1 "HOLE" H 6850 1800 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 6650 1800 50  0001 C CNN
-F 3 "" H 6650 1800 50  0001 C CNN
-	1    6650 1800
+F 0 "MH1" H 7450 1800 50  0000 C CNN
+F 1 "HOLE" H 7200 1800 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7000 1800 50  0001 C CNN
+F 3 "" H 7000 1800 50  0001 C CNN
+	1    7000 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 MH2
 U 1 1 5B3D9815
-P 6650 1950
+P 7000 1950
 AR Path="/5B3D9815" Ref="MH2"  Part="1" 
 AR Path="/5B320D1B/5B3D9815" Ref="MH2"  Part="1" 
-F 0 "MH2" H 7100 1950 50  0000 C CNN
-F 1 "HOLE" H 6850 1950 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 6650 1950 50  0001 C CNN
-F 3 "" H 6650 1950 50  0001 C CNN
-	1    6650 1950
+F 0 "MH2" H 7450 1950 50  0000 C CNN
+F 1 "HOLE" H 7200 1950 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7000 1950 50  0001 C CNN
+F 3 "" H 7000 1950 50  0001 C CNN
+	1    7000 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 MH3
 U 1 1 5B3D9970
-P 6650 2100
+P 7000 2100
 AR Path="/5B3D9970" Ref="MH3"  Part="1" 
 AR Path="/5B320D1B/5B3D9970" Ref="MH3"  Part="1" 
-F 0 "MH3" H 7100 2100 50  0000 C CNN
-F 1 "HOLE" H 6850 2100 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 6650 2100 50  0001 C CNN
-F 3 "" H 6650 2100 50  0001 C CNN
-	1    6650 2100
+F 0 "MH3" H 7450 2100 50  0000 C CNN
+F 1 "HOLE" H 7200 2100 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7000 2100 50  0001 C CNN
+F 3 "" H 7000 2100 50  0001 C CNN
+	1    7000 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 MH4
 U 1 1 5B3D9AC6
-P 6650 2250
+P 7000 2250
 AR Path="/5B3D9AC6" Ref="MH4"  Part="1" 
 AR Path="/5B320D1B/5B3D9AC6" Ref="MH4"  Part="1" 
-F 0 "MH4" H 7100 2250 50  0000 C CNN
-F 1 "HOLE" H 6850 2250 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 6650 2250 50  0001 C CNN
-F 3 "" H 6650 2250 50  0001 C CNN
-	1    6650 2250
+F 0 "MH4" H 7450 2250 50  0000 C CNN
+F 1 "HOLE" H 7200 2250 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 7000 2250 50  0001 C CNN
+F 3 "" H 7000 2250 50  0001 C CNN
+	1    7000 2250
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6450 2250
-NoConn ~ 6450 2100
-NoConn ~ 6450 1950
-NoConn ~ 6450 1800
 Wire Wire Line
 	5550 900  5900 900 
 Wire Wire Line
@@ -2075,254 +1414,6 @@ Wire Wire Line
 	5700 1450 5900 1450
 Text Label 6800 900  0    60   ~ 0
 USB_VBUS
-$Comp
-L Connector:Conn_01x01_Female J73
-U 1 1 5B4D58B6
-P 6400 2550
-F 0 "J73" H 6450 2550 50  0000 C CNN
-F 1 "CASTELATED" H 6800 2550 50  0000 C CNN
-F 2 "local:castelated_pad" H 6400 2550 50  0001 C CNN
-F 3 "" H 6400 2550 50  0001 C CNN
-	1    6400 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J74
-U 1 1 5B4D5E1A
-P 6400 2650
-F 0 "J74" H 6450 2650 50  0000 C CNN
-F 1 "CASTELATED" H 6800 2650 50  0000 C CNN
-F 2 "local:castelated_pad" H 6400 2650 50  0001 C CNN
-F 3 "" H 6400 2650 50  0001 C CNN
-	1    6400 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J75
-U 1 1 5B4D5F75
-P 6400 2750
-F 0 "J75" H 6450 2750 50  0000 C CNN
-F 1 "CASTELATED" H 6800 2750 50  0000 C CNN
-F 2 "local:castelated_pad" H 6400 2750 50  0001 C CNN
-F 3 "" H 6400 2750 50  0001 C CNN
-	1    6400 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J76
-U 1 1 5B4D60CF
-P 6400 2850
-F 0 "J76" H 6450 2850 50  0000 C CNN
-F 1 "CASTELATED" H 6800 2850 50  0000 C CNN
-F 2 "local:castelated_pad" H 6400 2850 50  0001 C CNN
-F 3 "" H 6400 2850 50  0001 C CNN
-	1    6400 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J77
-U 1 1 5B4D630E
-P 6400 2950
-F 0 "J77" H 6450 2950 50  0000 C CNN
-F 1 "CASTELATED" H 6800 2950 50  0000 C CNN
-F 2 "local:castelated_pad" H 6400 2950 50  0001 C CNN
-F 3 "" H 6400 2950 50  0001 C CNN
-	1    6400 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J78
-U 1 1 5B4D646E
-P 6400 3050
-F 0 "J78" H 6450 3050 50  0000 C CNN
-F 1 "CASTELATED" H 6800 3050 50  0000 C CNN
-F 2 "local:castelated_pad" H 6400 3050 50  0001 C CNN
-F 3 "" H 6400 3050 50  0001 C CNN
-	1    6400 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J79
-U 1 1 5B4D65D5
-P 6400 3150
-F 0 "J79" H 6450 3150 50  0000 C CNN
-F 1 "CASTELATED" H 6800 3150 50  0000 C CNN
-F 2 "local:castelated_pad" H 6400 3150 50  0001 C CNN
-F 3 "" H 6400 3150 50  0001 C CNN
-	1    6400 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J80
-U 1 1 5B4D673F
-P 6400 3250
-F 0 "J80" H 6450 3250 50  0000 C CNN
-F 1 "CASTELATED" H 6800 3250 50  0000 C CNN
-F 2 "local:castelated_pad" H 6400 3250 50  0001 C CNN
-F 3 "" H 6400 3250 50  0001 C CNN
-	1    6400 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J63
-U 1 1 5B4D6B3E
-P 5600 2550
-F 0 "J63" H 5650 2550 50  0000 C CNN
-F 1 "CASTELATED" H 6000 2550 50  0000 C CNN
-F 2 "local:castelated_pad" H 5600 2550 50  0001 C CNN
-F 3 "" H 5600 2550 50  0001 C CNN
-	1    5600 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J64
-U 1 1 5B4D6B44
-P 5600 2650
-F 0 "J64" H 5650 2650 50  0000 C CNN
-F 1 "CASTELATED" H 6000 2650 50  0000 C CNN
-F 2 "local:castelated_pad" H 5600 2650 50  0001 C CNN
-F 3 "" H 5600 2650 50  0001 C CNN
-	1    5600 2650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J65
-U 1 1 5B4D6B4A
-P 5600 2750
-F 0 "J65" H 5650 2750 50  0000 C CNN
-F 1 "CASTELATED" H 6000 2750 50  0000 C CNN
-F 2 "local:castelated_pad" H 5600 2750 50  0001 C CNN
-F 3 "" H 5600 2750 50  0001 C CNN
-	1    5600 2750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J66
-U 1 1 5B4D6B50
-P 5600 2850
-F 0 "J66" H 5650 2850 50  0000 C CNN
-F 1 "CASTELATED" H 6000 2850 50  0000 C CNN
-F 2 "local:castelated_pad" H 5600 2850 50  0001 C CNN
-F 3 "" H 5600 2850 50  0001 C CNN
-	1    5600 2850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J69
-U 1 1 5B4D6B56
-P 5600 2950
-F 0 "J69" H 5650 2950 50  0000 C CNN
-F 1 "CASTELATED" H 6000 2950 50  0000 C CNN
-F 2 "local:castelated_pad" H 5600 2950 50  0001 C CNN
-F 3 "" H 5600 2950 50  0001 C CNN
-	1    5600 2950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J70
-U 1 1 5B4D6B5C
-P 5600 3050
-F 0 "J70" H 5650 3050 50  0000 C CNN
-F 1 "CASTELATED" H 6000 3050 50  0000 C CNN
-F 2 "local:castelated_pad" H 5600 3050 50  0001 C CNN
-F 3 "" H 5600 3050 50  0001 C CNN
-	1    5600 3050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J71
-U 1 1 5B4D6B62
-P 5600 3150
-F 0 "J71" H 5650 3150 50  0000 C CNN
-F 1 "CASTELATED" H 6000 3150 50  0000 C CNN
-F 2 "local:castelated_pad" H 5600 3150 50  0001 C CNN
-F 3 "" H 5600 3150 50  0001 C CNN
-	1    5600 3150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J72
-U 1 1 5B4D6B68
-P 5600 3250
-F 0 "J72" H 5650 3250 50  0000 C CNN
-F 1 "CASTELATED" H 6000 3250 50  0000 C CNN
-F 2 "local:castelated_pad" H 5600 3250 50  0001 C CNN
-F 3 "" H 5600 3250 50  0001 C CNN
-	1    5600 3250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5800 2550 5900 2550
-Wire Wire Line
-	5900 2550 5900 2650
-Wire Wire Line
-	5900 3250 5800 3250
-Wire Wire Line
-	5800 2650 5900 2650
-Connection ~ 5900 2650
-Connection ~ 5900 2750
-Connection ~ 5900 2850
-Connection ~ 5900 2950
-Connection ~ 5900 3050
-Connection ~ 5900 3150
-Wire Wire Line
-	5800 2750 5900 2750
-Wire Wire Line
-	5800 2850 5900 2850
-Wire Wire Line
-	5800 2950 5900 2950
-Wire Wire Line
-	5800 3050 5900 3050
-Wire Wire Line
-	5800 3150 5900 3150
-Wire Wire Line
-	6200 2550 6100 2550
-Wire Wire Line
-	6100 2500 6100 2550
-Wire Wire Line
-	6100 3250 6200 3250
-Wire Wire Line
-	6200 2650 6100 2650
-Connection ~ 6100 2650
-Connection ~ 6100 2750
-Connection ~ 6100 2850
-Connection ~ 6100 2950
-Connection ~ 6100 3050
-Connection ~ 6100 3150
-Wire Wire Line
-	6200 2750 6100 2750
-Wire Wire Line
-	6200 2850 6100 2850
-Wire Wire Line
-	6200 2950 6100 2950
-Wire Wire Line
-	6200 3050 6100 3050
-Wire Wire Line
-	6200 3150 6100 3150
-$Comp
-L power:+3.3V #PWR086
-U 1 1 5B4D856B
-P 6100 2500
-F 0 "#PWR086" H 6100 2350 50  0001 C CNN
-F 1 "+3.3V" H 6100 2640 50  0000 C CNN
-F 2 "" H 6100 2500 50  0001 C CNN
-F 3 "" H 6100 2500 50  0001 C CNN
-	1    6100 2500
-	-1   0    0    -1  
-$EndComp
-Connection ~ 6100 2550
-$Comp
-L power:GND #PWR087
-U 1 1 5B4D9628
-P 5900 3300
-F 0 "#PWR087" H 5900 3050 50  0001 C CNN
-F 1 "GND" H 5900 3150 50  0000 C CNN
-F 2 "" H 5900 3300 50  0001 C CNN
-F 3 "" H 5900 3300 50  0001 C CNN
-	1    5900 3300
-	1    0    0    -1  
-$EndComp
-Connection ~ 5900 3250
 $Comp
 L usblc6-2:USBLC6-2 U9
 U 1 1 5B500E29
@@ -2412,24 +1503,16 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x07 J81
 U 1 1 5B6E81E1
-P 4350 6750
-F 0 "J81" H 4350 7150 50  0000 C CNN
-F 1 "Conn_01x07" H 4350 6350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 4350 6750 50  0001 C CNN
-F 3 "" H 4350 6750 50  0001 C CNN
-	1    4350 6750
+P 4350 6650
+F 0 "J81" H 4350 7050 50  0000 C CNN
+F 1 "Conn_01x07" H 4350 6250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 4350 6650 50  0001 C CNN
+F 3 "" H 4350 6650 50  0001 C CNN
+	1    4350 6650
 	-1   0    0    -1  
 $EndComp
-Text Label 4550 7050 0    60   ~ 0
+Text Label 4550 6350 0    60   ~ 0
 ENET_CRS_DV
-Wire Wire Line
-	2100 7600 2800 7600
-Wire Wire Line
-	2100 7300 2100 7400
-Wire Wire Line
-	2100 7400 2100 7600
-Wire Wire Line
-	2100 7200 2100 7300
 Wire Wire Line
 	3900 5900 3950 5900
 Wire Wire Line
@@ -2570,36 +1653,6 @@ Wire Wire Line
 	8500 1850 8950 1850
 Wire Wire Line
 	8500 1850 8500 1950
-Wire Wire Line
-	3750 7400 3750 7600
-Wire Wire Line
-	5900 2650 5900 2750
-Wire Wire Line
-	5900 2750 5900 2850
-Wire Wire Line
-	5900 2850 5900 2950
-Wire Wire Line
-	5900 2950 5900 3050
-Wire Wire Line
-	5900 3050 5900 3150
-Wire Wire Line
-	5900 3150 5900 3250
-Wire Wire Line
-	6100 2650 6100 2750
-Wire Wire Line
-	6100 2750 6100 2850
-Wire Wire Line
-	6100 2850 6100 2950
-Wire Wire Line
-	6100 2950 6100 3050
-Wire Wire Line
-	6100 3050 6100 3150
-Wire Wire Line
-	6100 3150 6100 3250
-Wire Wire Line
-	6100 2550 6100 2650
-Wire Wire Line
-	5900 3250 5900 3300
 Wire Wire Line
 	800  6200 800  6400
 Wire Wire Line
@@ -2764,4 +1817,41 @@ Wire Wire Line
 Wire Wire Line
 	9200 6000 9200 5900
 Connection ~ 9200 5900
+Text HLabel 9550 3200 0    60   Output ~ 0
+DBG_UART_TX
+Text HLabel 9550 3300 0    60   Input ~ 0
+DBG_UART_RX
+Wire Wire Line
+	9550 3200 10000 3200
+Wire Wire Line
+	10000 3200 10000 2650
+Connection ~ 10000 2650
+Wire Wire Line
+	10000 2650 10050 2650
+Wire Wire Line
+	10050 2750 10050 3300
+Wire Wire Line
+	10050 3300 9550 3300
+Wire Wire Line
+	6800 1800 6800 1950
+Connection ~ 6800 1950
+Wire Wire Line
+	6800 1950 6800 2100
+Connection ~ 6800 2100
+Wire Wire Line
+	6800 2100 6800 2250
+Wire Wire Line
+	6800 2250 6650 2250
+Connection ~ 6800 2250
+$Comp
+L power:GND #PWR0101
+U 1 1 5BA9311E
+P 6650 2250
+F 0 "#PWR0101" H 6650 2000 50  0001 C CNN
+F 1 "GND" H 6650 2100 50  0000 C CNN
+F 2 "" H 6650 2250 50  0001 C CNN
+F 3 "" H 6650 2250 50  0001 C CNN
+	1    6650 2250
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
