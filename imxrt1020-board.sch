@@ -64,9 +64,6 @@ Wire Wire Line
 Wire Wire Line
 	6200 2950 5450 2950
 Wire Wire Line
-	6200 2850 5850 2850
-NoConn ~ 5850 2850
-Wire Wire Line
 	5450 2700 6200 2700
 Wire Wire Line
 	6200 2600 5450 2600
@@ -123,4 +120,17 @@ Wire Wire Line
 	3500 2900 3500 4200
 Wire Wire Line
 	3500 4200 4050 4200
+$Comp
+L Connector:Conn_01x01_Male J5
+U 1 1 5B96E653
+P 5850 2850
+F 0 "J5" H 5700 2850 50  0000 C CNN
+F 1 "IO3_24" H 5956 2937 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 5850 2850 50  0001 C CNN
+F 3 "~" H 5850 2850 50  0001 C CNN
+	1    5850 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2850 6200 2850
 $EndSCHEMATC
