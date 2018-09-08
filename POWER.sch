@@ -1223,7 +1223,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 2300 3100 2300
 Connection ~ 3100 2300
-Connection ~ 4000 1700
 $Comp
 L Regulator_Linear:LM1084-3.3 U5
 U 1 1 5B3ADB56
@@ -1779,6 +1778,20 @@ Wire Wire Line
 	2200 4000 3350 4000
 Wire Wire Line
 	1800 4000 1800 4500
+$Comp
+L Jumper:SolderJumper_2_Bridged JP2
+U 1 1 5B946AEC
+P 3750 1700
+F 0 "JP2" H 3750 1800 50  0000 C CNN
+F 1 "USB_SHORT" H 3750 1550 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" H 3750 1700 50  0001 C CNN
+F 3 "~" H 3750 1700 50  0001 C CNN
+	1    3750 1700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3550 1700 4000 1700
+	3550 1700 3600 1700
+Wire Wire Line
+	3900 1700 4000 1700
+Connection ~ 4000 1700
 $EndSCHEMATC
