@@ -1,0 +1,262 @@
+EESchema Schematic File Version 4
+LIBS:imxrt1020-board-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_USB:CP2102N-A01-GQFN24 U11
+U 1 1 5BAD1EF3
+P 5200 3300
+F 0 "U11" H 5900 4300 50  0000 C CNN
+F 1 "CP2102N-A01-GQFN24" H 5900 4150 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 5650 2500 50  0001 L CNN
+F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf" H 5250 2250 50  0001 C CNN
+F 4 "CP2102N-A01-GQFN24" H 0   0   50  0001 C CNN "Field4"
+F 5 "336-3693-ND" H 0   0   50  0001 C CNN "Field5"
+	1    5200 3300
+	1    0    0    -1  
+$EndComp
+Text HLabel 5800 3000 2    60   Input ~ 0
+RX
+Text HLabel 5800 3100 2    60   Output ~ 0
+TX
+NoConn ~ 5800 2700
+NoConn ~ 5800 2800
+NoConn ~ 5800 2900
+NoConn ~ 5800 3200
+NoConn ~ 5800 3300
+NoConn ~ 5800 3400
+NoConn ~ 5800 3600
+NoConn ~ 5800 3700
+NoConn ~ 5800 3800
+NoConn ~ 5800 3900
+Wire Wire Line
+	5200 4200 5300 4200
+Wire Wire Line
+	5300 4200 5300 4300
+Connection ~ 5300 4200
+$Comp
+L power:GND #PWR087
+U 1 1 5BAD2D96
+P 5300 4300
+F 0 "#PWR087" H 5300 4050 50  0001 C CNN
+F 1 "GND" H 5305 4127 50  0000 C CNN
+F 2 "" H 5300 4300 50  0001 C CNN
+F 3 "" H 5300 4300 50  0001 C CNN
+	1    5300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5BAD2FEB
+P 5100 2250
+AR Path="/5B320D1B/5BAD2FEB" Ref="#PWR?"  Part="1" 
+AR Path="/5BAD1951/5BAD2FEB" Ref="#PWR086"  Part="1" 
+F 0 "#PWR086" H 5100 2100 50  0001 C CNN
+F 1 "+3.3V" H 5100 2390 50  0000 C CNN
+F 2 "" H 5100 2250 50  0001 C CNN
+F 3 "" H 5100 2250 50  0001 C CNN
+	1    5100 2250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2250 5100 2400
+Wire Wire Line
+	5100 2400 5200 2400
+Connection ~ 5100 2400
+Wire Wire Line
+	5100 2250 4750 2250
+Connection ~ 5100 2250
+$Comp
+L Device:C_Small C?
+U 1 1 5BAD879C
+P 4500 2250
+AR Path="/5BAD879C" Ref="C?"  Part="1" 
+AR Path="/5B320D18/5BAD879C" Ref="C?"  Part="1" 
+AR Path="/5BAD1951/5BAD879C" Ref="C78"  Part="1" 
+F 0 "C78" H 4510 2320 50  0000 L CNN
+F 1 "0.1u" H 4510 2170 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4500 2250 50  0001 C CNN
+F 3 "" H 4500 2250 50  0001 C CNN
+F 4 "C1005X7R1C104K050BC" H 0   0   50  0001 C CNN "Field4"
+F 5 "445-4952-1-ND" H 0   0   50  0001 C CNN "Field5"
+	1    4500 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5BAD87F7
+P 4500 2000
+AR Path="/5BAD87F7" Ref="C?"  Part="1" 
+AR Path="/5B320D18/5BAD87F7" Ref="C?"  Part="1" 
+AR Path="/5BAD1951/5BAD87F7" Ref="C77"  Part="1" 
+F 0 "C77" H 4510 2070 50  0000 L CNN
+F 1 "4.7u" H 4510 1920 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4500 2000 50  0001 C CNN
+F 3 "" H 4500 2000 50  0001 C CNN
+F 4 "C1005X5R0J475M050BC" H 0   0   50  0001 C CNN "Field4"
+F 5 "445-7395-1-ND" H 0   0   50  0001 C CNN "Field5"
+	1    4500 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4600 2000 4750 2000
+Wire Wire Line
+	4750 2000 4750 2250
+Connection ~ 4750 2250
+Wire Wire Line
+	4750 2250 4600 2250
+$Comp
+L power:GND #PWR085
+U 1 1 5BAD8871
+P 4350 2250
+F 0 "#PWR085" H 4350 2000 50  0001 C CNN
+F 1 "GND" V 4355 2122 50  0000 R CNN
+F 2 "" H 4350 2250 50  0001 C CNN
+F 3 "" H 4350 2250 50  0001 C CNN
+	1    4350 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 2250 4400 2250
+Wire Wire Line
+	4400 2250 4400 2000
+Connection ~ 4400 2250
+NoConn ~ 4600 2700
+NoConn ~ 4600 3000
+NoConn ~ 4600 3100
+$Comp
+L Device:C_Small C?
+U 1 1 5BAD93DD
+P 4250 3300
+AR Path="/5BAD93DD" Ref="C?"  Part="1" 
+AR Path="/5B320D18/5BAD93DD" Ref="C?"  Part="1" 
+AR Path="/5BAD1951/5BAD93DD" Ref="C76"  Part="1" 
+F 0 "C76" H 4260 3370 50  0000 L CNN
+F 1 "1u" H 4260 3220 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4250 3300 50  0001 C CNN
+F 3 "" H 4250 3300 50  0001 C CNN
+F 4 "CL05A105KA5NQNC" H 0   0   50  0001 C CNN "Field4"
+F 5 "1276-1445-1-ND" H 0   0   50  0001 C CNN "Field5"
+	1    4250 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 3300 4600 3300
+Wire Wire Line
+	4600 3300 4600 3600
+Connection ~ 4600 3300
+Wire Wire Line
+	4600 3600 3900 3600
+Connection ~ 4600 3600
+$Comp
+L power:GND #PWR078
+U 1 1 5BAD9D3E
+P 4100 3300
+F 0 "#PWR078" H 4100 3050 50  0001 C CNN
+F 1 "GND" V 4105 3172 50  0000 R CNN
+F 2 "" H 4100 3300 50  0001 C CNN
+F 3 "" H 4100 3300 50  0001 C CNN
+	1    4100 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 3300 4150 3300
+$Comp
+L Connector:USB_OTG J?
+U 1 1 5BADA77B
+P 2350 3700
+AR Path="/5B320D1B/5BADA77B" Ref="J?"  Part="1" 
+AR Path="/5BAD1951/5BADA77B" Ref="J4"  Part="1" 
+F 0 "J4" H 2150 4150 50  0000 L CNN
+F 1 "USB_OTG" H 2150 4050 50  0000 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 2500 3650 50  0001 C CNN
+F 3 "" H 2500 3650 50  0001 C CNN
+	1    2350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L usblc6-2:USBLC6-2 U?
+U 1 1 5BADB391
+P 3400 3750
+AR Path="/5B320D1B/5BADB391" Ref="U?"  Part="1" 
+AR Path="/5BAD1951/5BADB391" Ref="U10"  Part="1" 
+F 0 "U10" H 3400 3925 60  0000 C CNN
+F 1 "USBLC6-2" H 3400 3575 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3400 3730 60  0001 C CNN
+F 3 "" H 3400 3730 60  0001 C CNN
+F 4 "USBLC6-2SC6" H 0   0   50  0001 C CNN "Field4"
+F 5 "497-5235-1-ND" H 0   0   50  0001 C CNN "Field5"
+	1    3400 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3700 3650 3650
+Wire Wire Line
+	3650 3700 4600 3700
+Wire Wire Line
+	3650 3800 3650 3850
+Wire Wire Line
+	3650 3800 4600 3800
+Wire Wire Line
+	3150 3800 3150 3850
+Wire Wire Line
+	3150 3650 3150 3700
+Wire Wire Line
+	3900 3500 3900 3600
+Wire Wire Line
+	3650 3750 3900 3750
+Wire Wire Line
+	3900 3750 3900 3600
+Connection ~ 3900 3600
+Wire Wire Line
+	3150 3750 3050 3750
+Wire Wire Line
+	2250 4100 2350 4100
+Connection ~ 2350 4100
+$Comp
+L power:GND #PWR059
+U 1 1 5BADDBD9
+P 3050 4200
+F 0 "#PWR059" H 3050 3950 50  0001 C CNN
+F 1 "GND" H 3055 4027 50  0000 C CNN
+F 2 "" H 3050 4200 50  0001 C CNN
+F 3 "" H 3050 4200 50  0001 C CNN
+	1    3050 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3750 3050 4100
+Wire Wire Line
+	2350 4100 3050 4100
+Connection ~ 3050 4100
+Wire Wire Line
+	3050 4100 3050 4200
+Wire Wire Line
+	2650 3800 3150 3800
+Wire Wire Line
+	2650 3700 3150 3700
+Wire Wire Line
+	2650 3500 3900 3500
+Text Label 2700 3500 0    60   ~ 0
+DBG_VBUS
+Text Label 2700 3700 0    60   ~ 0
+DBGD+
+Text Label 2700 3800 0    60   ~ 0
+DBGD-
+Text Label 4050 3700 0    60   ~ 0
+BDBGD+
+Text Label 4050 3800 0    60   ~ 0
+BDBGD-
+$EndSCHEMATC

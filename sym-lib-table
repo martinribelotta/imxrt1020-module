@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name imx_rt1020-qfp144)(type Legacy)(uri ${KIPRJMOD}/imx_rt1020-qfp144.lib)(options "")(descr ""))
+  (lib (name sdram)(type Legacy)(uri ${KIPRJMOD}/sdram.lib)(options "")(descr ""))
+  (lib (name ksz8081)(type Legacy)(uri ${KIPRJMOD}/ksz8081.lib)(options "")(descr ""))
+  (lib (name isl3178e)(type Legacy)(uri ${KIPRJMOD}/isl3178e.lib)(options "")(descr ""))
+  (lib (name tcan332d)(type Legacy)(uri ${KIPRJMOD}/tcan332d.lib)(options "")(descr ""))
+  (lib (name usb-emi)(type Legacy)(uri ${KIPRJMOD}/usb-emi.lib)(options "")(descr ""))
+  (lib (name prtr5v0u2x)(type Legacy)(uri ${KIPRJMOD}/prtr5v0u2x.lib)(options "")(descr ""))
+  (lib (name emi_filter)(type Legacy)(uri ${KIPRJMOD}/emi_filter.lib)(options "")(descr ""))
+  (lib (name usblc6-2)(type Legacy)(uri ${KIPRJMOD}/usblc6-2.lib)(options "")(descr ""))
+  (lib (name RJMG1BD3B8K1ANR)(type Legacy)(uri ${KIPRJMOD}/RJMG1BD3B8K1ANR.lib)(options "")(descr ""))
+)
