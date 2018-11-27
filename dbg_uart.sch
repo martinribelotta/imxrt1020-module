@@ -27,9 +27,9 @@ F 5 "336-3693-ND" H 0   0   50  0001 C CNN "Field5"
 	1    5200 3300
 	1    0    0    -1  
 $EndComp
-Text HLabel 5800 3000 2    60   Input ~ 0
+Text HLabel 6550 3000 2    60   Input ~ 0
 RX
-Text HLabel 5800 3100 2    60   Output ~ 0
+Text HLabel 6550 3100 2    60   Output ~ 0
 TX
 NoConn ~ 5800 2700
 NoConn ~ 5800 2800
@@ -60,24 +60,20 @@ $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5BAD2FEB
-P 5100 2250
+P 5200 2250
 AR Path="/5B320D1B/5BAD2FEB" Ref="#PWR?"  Part="1" 
 AR Path="/5BAD1951/5BAD2FEB" Ref="#PWR086"  Part="1" 
-F 0 "#PWR086" H 5100 2100 50  0001 C CNN
-F 1 "+3.3V" H 5100 2390 50  0000 C CNN
-F 2 "" H 5100 2250 50  0001 C CNN
-F 3 "" H 5100 2250 50  0001 C CNN
-	1    5100 2250
+F 0 "#PWR086" H 5200 2100 50  0001 C CNN
+F 1 "+3.3V" H 5200 2390 50  0000 C CNN
+F 2 "" H 5200 2250 50  0001 C CNN
+F 3 "" H 5200 2250 50  0001 C CNN
+	1    5200 2250
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5100 2250 5100 2400
 Wire Wire Line
-	5100 2400 5200 2400
-Connection ~ 5100 2400
-Wire Wire Line
 	5100 2250 4750 2250
-Connection ~ 5100 2250
 $Comp
 L Device:C_Small C?
 U 1 1 5BAD879C
@@ -181,7 +177,7 @@ AR Path="/5B320D1B/5BADA77B" Ref="J?"  Part="1"
 AR Path="/5BAD1951/5BADA77B" Ref="J4"  Part="1" 
 F 0 "J4" H 2150 4150 50  0000 L CNN
 F 1 "USB_OTG" H 2150 4050 50  0000 L CNN
-F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 2500 3650 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 2500 3650 50  0001 C CNN
 F 3 "" H 2500 3650 50  0001 C CNN
 	1    2350 3700
 	1    0    0    -1  
@@ -259,4 +255,46 @@ Text Label 4050 3700 0    60   ~ 0
 BDBGD+
 Text Label 4050 3800 0    60   ~ 0
 BDBGD-
+Wire Wire Line
+	5200 2250 5200 2400
+$Comp
+L Device:R_Small R7
+U 1 1 5C041C9C
+P 6200 3000
+F 0 "R7" V 6004 3000 50  0000 C CNN
+F 1 "0R" V 6095 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6200 3000 50  0001 C CNN
+F 3 "~" H 6200 3000 50  0001 C CNN
+	1    6200 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R24
+U 1 1 5C041D09
+P 6200 3100
+F 0 "R24" V 6400 3100 50  0000 C CNN
+F 1 "0R" V 6300 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6200 3100 50  0001 C CNN
+F 3 "~" H 6200 3100 50  0001 C CNN
+	1    6200 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 3000 6550 3000
+Wire Wire Line
+	6550 3100 6300 3100
+Wire Wire Line
+	5800 3100 6100 3100
+Wire Wire Line
+	5800 3000 6100 3000
+Wire Notes Line
+	6000 2700 6000 3400
+Wire Notes Line
+	6000 3400 6400 3400
+Wire Notes Line
+	6400 3400 6400 2700
+Wire Notes Line
+	6400 2700 6000 2700
+Text Notes 6000 2650 0    60   ~ 0
+DNP (solder jumpers)
 $EndSCHEMATC

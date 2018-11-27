@@ -9,4 +9,6 @@
   (lib (name emi_filter)(type Legacy)(uri ${KIPRJMOD}/emi_filter.lib)(options "")(descr ""))
   (lib (name usblc6-2)(type Legacy)(uri ${KIPRJMOD}/usblc6-2.lib)(options "")(descr ""))
   (lib (name RJMG1BD3B8K1ANR)(type Legacy)(uri ${KIPRJMOD}/RJMG1BD3B8K1ANR.lib)(options "")(descr ""))
+  (lib (name MAX40200)(type Legacy)(uri ${KIPRJMOD}/MAX40200.lib)(options "")(descr ""))
+  (lib (name imxrt1020-board-rescue)(type Legacy)(uri ${KIPRJMOD}/imxrt1020-board-rescue.lib)(options "")(descr ""))
 )
