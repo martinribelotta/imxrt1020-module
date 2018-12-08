@@ -16,3 +16,7 @@ iMX RT 1020 CPU module
 
 ### Memory and storage
 ![MEMORY](doc/MEMORY-MEMORY.svg)
+
+### Power schemas
+
+![](/home/martin/Proyectos/git/martinribelotta/imxrt1020-module/doc/images/power-schemes.png)
