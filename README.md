@@ -19,4 +19,4 @@ iMX RT 1020 CPU module
 
 ### Power schemas
 
-![](/home/martin/Proyectos/git/martinribelotta/imxrt1020-module/doc/images/power-schemes.png)
+![power-schemes](doc/images/power-schemes.png)
